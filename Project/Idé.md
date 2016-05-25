@@ -6,3 +6,7 @@ Jag kommer använda mig av iPython biblioteket och PyGame eftersom jag har inga 
 
 #Referens
 http://www.pygame.org/docs/ref/
+
+#Projekt idé 2
+
+Efter att ha misslyckats med att färdigställa ett fungerande fia med knuff spel så bestämnde jag mig för att jag ville skicka in någon form av ett färdigt spel. Jag skapade ett Sten, Sax, Påse spel (Rock, Paper, Scissors) som använder sig av slumpmässade algoritmer och en timer som organiserar spelet bättre.
