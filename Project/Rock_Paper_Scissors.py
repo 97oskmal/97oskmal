@@ -7,8 +7,12 @@ options = ('Rock', 'Paper', 'Scissors')
 
 #wins = 0
 #losses = 0
+#jag hade tänkt att göra en win och losses tabell men jag lyckades inte implimentera den I koden, det blev bara error eller
+#så skrevs funktionen över av rematch funktionen.
 
-#Koden för introt
+#Koden för introt, här visar jag att spelet startas genom en nedräkning som slutar med att valen kommer upp, rock, paper or scissors.
+#Efter ett kort välkommst meddelande så startar nedräkningen, jag tyckte att time.sleep passade bra på 5 under själva
+#Nedräkningen, det var snabbt tempo men ändå inte så man missar det.
 
 def intro():
     print("Welcome to Rock, Paper, Scissors. Let's begin!")    
