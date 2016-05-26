@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 13 15:34:10 2016
+
+@author: 97oskmal
+"""
+
+import sqlite3
+
+with sqlite3.connect(coffee_shop.db) as db:
+    pass
