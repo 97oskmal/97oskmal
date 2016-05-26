@@ -39,7 +39,9 @@ def countdown():
     print(game_time)
     wait()
 
-#Själva metoden för spelets grund, här bestämmer man när spelaren vinner eller förlorar
+#Här har vi själva spel modulen, efter nedräkningen så startas spelet upp och man blir presenterad med alternativen.
+#Jag döpte det slumpmässiga valet till "comp" eftersom det är datorn man spelar mot, dator väljer en av alternativen
+#Slumpmässigt varje gång med random.choice modulen och jag la bara in alternativen som fanns (Options)
 
 def game_on():
     comp = random.choice(options)
